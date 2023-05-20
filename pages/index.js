@@ -39,13 +39,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Name my pet</h3>
+        <img src="D:\Coding\Web_Development\openai-quickstart-node\pages\api\sport-car_1.jpg" className={styles.icon} />
+        <h3>Name my car</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
             name="animal"
-            placeholder="Enter an animal"
+            placeholder="Enter a car type"
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
